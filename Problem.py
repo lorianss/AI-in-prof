@@ -6,7 +6,6 @@ from collections import defaultdict, deque, Counter
 from itertools import combinations
 
 class Problem:
-
     def __init__(self, initial=None, goal=None, **kwds):
         self.__dict__.update(initial=initial, goal=goal, **kwds)
 
